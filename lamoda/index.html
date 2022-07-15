@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/blowup.js"></script>
+    <script type="text/javascript" src="js/notify.js"></script>  
+    <script src="js/script.js"></script>  
+    <title>Lamoda</title>
+</head>
+<body>
+
+
+
+<div class="layout">
+    <div class="product">
+       <div class="product__preview">
+            <div class="product__preview-slider">
+                <img class="product__preview-slid1" src="product-img/product-img_v1.png">
+                <img class="product__preview-slid2" src="product-img/product-img_v2.png">
+                <img class="product__preview-slid3" src="product-img/product-img_v3.png">
+            </div>
+
+            <div class="product__preview-zoom">
+                <div class="product__preview-zoomed" id="zoom"><img src="product-img/product-img_v1.png"></div>
+            </div>            
+       </div>
+
+        <div class="product__description">
+            
+            <h2 class="product__title">РУБАШКА MEDICINE</h2>
+
+            <div class="product__categories">
+                <a  href="https://www.lamoda.by/cb/2484-24385/clothes-rubashki-medicine/">Рубашка Medecine</a> 
+                <a  href="https://www.lamoda.ru/b/24385/brand-medicine/">Все модели Medecine</a> 
+                <a  href="https://www.lamoda.ru/c/515/clothes-muzhskie-rubashki-i-sorochki/">Рубашки</a>    
+            </div>
+
+            <div class="product__price">
+                <div class="product__price-actual">
+                    <div class="product__price-old" >2 699</div> 
+                    <div class="product__price-current">2 499 ₽</div>
+                </div>
+                <div class="product__price-discount"> 
+                        <div class="product__discount-value">2 227 ₽</div>
+                        <div class="product__discount-text">— c промокодом</div>
+                </div>        
+            </div>    
+
+            <div class="product__info">
+                <div class="product__info-item">
+                    <img src="icon/checkbox.svg">
+                       В наличии в магазине
+                    <a href="https://www.lamoda.ru">Lamoda</a>    
+                </div>
+                <div class="product__info-item">
+                    <img src="icon/car.svg">
+                      Бесплатная доставка
+                </div>
+            </div>
+
+            <div class="product__buy">
+                <button class="buy-custom-button-minus">—</button>
+                <input id="id-buy-input" class="buy-input" value="1" type=number min="1" max="99" step="1" oninput="this.value = this.value.replace(/\./g, '')" required>
+                <button class="buy-custom-button-plus">+</button>
+            </div>
+
+            <div class="product__action">
+                <button class="custom-button custom-button--blue" >в корзину</button>
+                <button class="custom-button">в избранное</button>
+            </div>
+
+            <div class="product__text">
+                Рубашка Medicine выполнена из вискозной ткани с клетчатым узором</br>
+                Детали: прямой крой; отложной воротник; планка и манжеты на пуговицах;</br>
+                карман на груди.</br>
+            </div>
+
+            <div class="product__share">
+                <div>ПОДЕЛИТЬСЯ   </div>
+                <a href="https://vk.com/id0" target="_blank" ><img src="icon/vk.svg" alt="vk"></a>
+                <a href="https://plus.google.com/" target="_blank" ><img src="icon/g+.svg" alt="g+"></a>
+                <a href="https://www.facebook.com" target="_blank" ><img src="icon/facebook.svg" alt="fb"></a>
+                <a href="https://vk.com/id0" target="_blank" ><img src="icon/twitter.svg" alt="twtr"></a>
+                <div class="product__share-count">123</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
